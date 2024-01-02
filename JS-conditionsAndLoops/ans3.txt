@@ -6,14 +6,14 @@ The for loop is used when you know the number of iterations in advance. It consi
 Syntax:
 
 javascript
-Copy code
+
 for (initialization; condition; iteration) {
   // Code to be executed in each iteration
 }
 Example:
 
 javascript
-Copy code
+
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
@@ -30,7 +30,7 @@ while (condition) {
 Example:
 
 javascript
-Copy code
+
 let i = 0;
 
 while (i < 5) {
@@ -50,7 +50,7 @@ do {
 Example:
 
 javascript
-Copy code
+
 let i = 0;
 
 do {
@@ -62,7 +62,7 @@ break statement:
 
 Used to exit a loop prematurely.
 javascript
-Copy code
+
 for (let i = 0; i < 10; i++) {
   if (i === 5) {
     break;
@@ -72,8 +72,7 @@ for (let i = 0; i < 10; i++) {
 continue statement:
 
 Skips the rest of the code inside a loop for the current iteration and moves to the next iteration.
-javascript
-Copy code
+
 for (let i = 0; i < 5; i++) {
   if (i === 2) {
     continue;
